@@ -1,0 +1,12 @@
+# Firmador de PDFs en Lote — Dependencias
+# Instalar con: pip install -r requirements.txt
+# Python 3.8 o superior
+
+# Manipulación y renderizado de PDFs
+# Se usa para insertar imágenes en PDFs y renderizar la primera página
+# como fondo de la vista previa.
+PyMuPDF>=1.23.0
+
+# Procesamiento de imágenes de firma
+# Se usa para abrir, rotar, redimensionar y aplicar opacidad a la firma.
+Pillow>=10.0.0

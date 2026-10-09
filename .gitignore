@@ -1,0 +1,87 @@
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================================================
+# Entornos virtuales
+# =========================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================================
+# PyInstaller
+# =========================================================
+*.spec
+dist/
+build/
+
+# =========================================================
+# Configuración personal de la aplicación
+# =========================================================
+firmador_config.json
+.firmador_pdf_config.json
+
+# =========================================================
+# PDFs (prueba, entrada y salida)
+# =========================================================
+PDFs_prueba/
+PDFs_firmados/
+*.pdf
+
+# =========================================================
+# Sistema operativo
+# =========================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# Editores e IDEs
+# =========================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# =========================================================
+# Logs y temporales
+# =========================================================
+*.log
+*.tmp
+*.bak
+.__firma_tmp_*.png
